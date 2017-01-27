@@ -88,7 +88,7 @@ public class Ship implements IMapShip {
 
         int wind;
 
-        double freeWay = 100;
+        //double freeWay = 100;
         Random rand = new Random();
         try {
             wind = rand.nextInt(16);
